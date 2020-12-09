@@ -13,7 +13,7 @@ export default [
       },
       {
         preface: '주요 Well-Known 포트',
-        text: 'Well-Known 포트란 한국어로 \'잘 알려진 포트\'라는 뜻이다.\n대표적인 Well-Known 포트로는 22번 SSH (Secure SHell), 25번 SMTP, 53번 DNS (Domain Name System), 23번 Telnet, 80번 HTTP, 443번 HTTPS 등이 있다.\n대부분의 유닉스 계열의 운영체제의 경우 잘 알려진 포트를 개방하기 위해서는 루트 권한이 있어야 한다고 한다.\nWell-Known 포트는 어떤 대상에 의해 강제되는 것은 아니지만, Well-Known 포트에 대해 IANA (Internet Assigned Numbers Authority)라는 곳에서 권고안을 내 놓는다.\n추가적으로, 포트 번호의 범위는 0번부터 65535번까지이다.',
+        text: 'Well-Known 포트란 한국어로 \'잘 알려진 포트\'라는 뜻이다.\n대표적인 Well-Known 포트로는 22번 SSH (Secure Shell), 25번 SMTP, 53번 DNS (Domain Name System), 23번 Telnet, 80번 HTTP, 443번 HTTPS 등이 있다.\n대부분의 유닉스 계열의 운영체제의 경우 잘 알려진 포트를 개방하기 위해서는 루트 권한이 있어야 한다.\nWell-Known 포트는 어떤 대상에 의해 강제되는 것은 아니지만, Well-Known 포트에 대해 IANA (Internet Assigned Numbers Authority)라는 곳에서 권고안을 내 놓는다.\n추가적으로, 포트 번호의 범위는 0번부터 65535번까지이다.',
         image: 'https://networkencyclopedia.com/wp-content/uploads/2019/08/well-known-ports.jpg',
       },
       {
