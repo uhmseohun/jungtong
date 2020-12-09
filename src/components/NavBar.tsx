@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => (
   <Nav>
-    <Title>🌎 네트워크 관리사</Title>
+    <Title><Link to="/">🌎 네트워크 관리사</Link></Title>
     <MenuList>
       <Menu><Link to="/writting/0">필기 - 1</Link></Menu>
       <Menu><Link to="/practical/0">실기 - 1</Link></Menu>
