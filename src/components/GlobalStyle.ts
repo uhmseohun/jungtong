@@ -1,11 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
-
   * {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 `;
 
