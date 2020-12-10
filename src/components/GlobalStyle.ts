@@ -14,6 +14,15 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
+
+  img {
+    user-select: none;
+  }
+
+  *::selection {
+    background-color: #000000;
+    color: #ffffff;
+  }
 `;
 
 export default GlobalStyle;
