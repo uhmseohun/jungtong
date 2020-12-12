@@ -60,7 +60,7 @@ const Paragraph = styled.p`
 
 const Image = styled.img`
   width: 40%;
-  height: intrinsic;
+  height: 40%;
   margin-left: 15px;
   border: 1.5px solid black;
 `;
