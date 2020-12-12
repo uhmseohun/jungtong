@@ -8,6 +8,7 @@ const NavBar = () => (
       <Menu><Link to="/writting/0">필기1</Link></Menu>
       <Menu><Link to="/practical/0">실기1</Link></Menu>
       <Menu><Link to="/practical/1">실기2</Link></Menu>
+      <Menu><Link to="/practical/2">실기3</Link></Menu>
     </MenuList>
   </Nav>
 );
