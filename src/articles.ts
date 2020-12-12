@@ -4,7 +4,7 @@ export default [
     type: 'writting',
     index: 0,
     title: '네트워크 관리사 2급 필기 요약',
-    subTitle: '이것만 알면 !! 누구나 합격할 수 있어요~ 🤗',
+    subTitle: '이것만 알면 누구나 합격할 수 있답니다~ 🤗',
     contents: [
       {
         preface: 'OSI 7계층에 대해',
@@ -32,7 +32,7 @@ export default [
     type: 'practical',
     index: 0,
     title: '네트워크 관리사 2급 실기 요약 - 1',
-    subTitle: '이것만 알면 !! 누구나 합격할 수 있어요~ 🤗',
+    subTitle: '이것만 알면 누구나 합격할 수 있답니다~ 🤗',
     contents: [
       {
         preface: '다이렉트 케이블 제작하기',
@@ -52,7 +52,7 @@ export default [
         preface: 'OSI 7계층 프로토콜',
         text: 'OSI 7계층 중, 3계층 네트워크 계층에서 사용되는 프로토콜은 RARP, ARP, ICMP, IGMP, RIP 등이 있다.\n7계층 응용 계층에서는, SMTP, Telnet, FTP, HTTP(HTTPS) 등이 있으며, 4계층 전송 계층에서는 SCTP, TCP, UDP가 있다.\n4계층인 전송 계층에서는 TCP와 UDP가 있으며, 두 프로토콜의 차이점은 필기 문제에서 자주 출제되는 주제 중 하나이다.\n네트워크 계층에서는 IP, ARP, ICMP가 있고, 데이터 링크 계층에는 이더넷 프로토콜이 있다.',
         image: require('./assets/practical-0/2.png').default,
-      }
+      },
     ],
   },
   {
@@ -122,7 +122,7 @@ export default [
     type: 'practical',
     index: 2,
     title: '네트워크 관리사 2급 실기 요약 - 3',
-    subTitle: 'DNS 서버 설정하기',
+    subTitle: '시뮬레이터에서 DNS 서버 설정하기',
     contents: [
       {
         preface: '제시 문제',
