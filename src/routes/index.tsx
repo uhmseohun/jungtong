@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import NavBar from '../components/NavBar';
 import articles from '../articles';
@@ -9,7 +9,7 @@ import ArticlePage from '../pages/Article';
 
 const Root = () => (
   <Container>
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Switch>
         <Route path="/" exact component={MainPage} />
@@ -27,7 +27,7 @@ const Root = () => (
           />
         ))}
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </Container>
 );
 
