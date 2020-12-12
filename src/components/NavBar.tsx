@@ -5,9 +5,9 @@ const NavBar = () => (
   <Nav>
     <Title><Link to="/">🌎 네트워크 관리사</Link></Title>
     <MenuList>
-      <Menu><Link to="/writting/0">필기 - 1</Link></Menu>
-      <Menu><Link to="/practical/0">실기 - 1</Link></Menu>
-      <Menu><Link to="/practical/1">실기 - 2</Link></Menu>
+      <Menu><Link to="/writting/0">필기1</Link></Menu>
+      <Menu><Link to="/practical/0">실기1</Link></Menu>
+      <Menu><Link to="/practical/1">실기2</Link></Menu>
     </MenuList>
   </Nav>
 );

@@ -44,6 +44,7 @@ const Preface = styled.p`
 
 const ContentWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const TextBox = styled.div`
@@ -55,7 +56,6 @@ const Paragraph = styled.p`
   line-height: 1.6;
   margin-top: 0;
   margin-bottom: 10px;
-  word-break: keep-all;
 `;
 
 const Image = styled.img`
@@ -63,4 +63,8 @@ const Image = styled.img`
   height: 40%;
   margin-left: 15px;
   border: 1.5px solid black;
+  @media (max-width: 890px) {
+    width: 100%;
+    margin-left: 0;
+  }
 `;
